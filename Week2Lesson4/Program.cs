@@ -105,7 +105,7 @@ namespace Week2Lesson4
 
             Console.WriteLine("Podaj wiek:");
             string yourAge = Console.ReadLine();
-            int givenAge = Int32.Parse(yourAge);
+            byte givenAge = Byte.Parse(yourAge);
 
             Console.WriteLine("Podaj płeć (M/K):");
             string yourGender = Console.ReadLine();
@@ -120,8 +120,7 @@ namespace Week2Lesson4
             Console.WriteLine($"Wiek: {givenAge}");
             Console.WriteLine($"Płeć: {givenGender}");
 
-            Console.ReadLine();
-
+            
 
         }
     }
